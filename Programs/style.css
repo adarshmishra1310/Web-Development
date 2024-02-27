@@ -1,6 +1,21 @@
-body{
-    background-color: rgb(65, 233, 214);
+/**{
+        background: url('download.jpg') no-repeat yellow fixed top;
+        background-size: 100%;
+    }*/
+#para1 {
+    background-color: rgb(178, 236, 139);
+    border-radius: 10px;
+    color: purple;
+    position: relative;
+    top: 100px; /* Add this line to shift the paragraph downward */
 }
-td{
-    border: 2px solid black;
+.para2 {
+    color: blue;
+    background-color: lightblue;
+    border: dotted 5px black;
+    border-color: black;
+    border-radius: 10px;
+    position: fixed;
+    top: 80px;
+    overflow-y: scroll;
 }
