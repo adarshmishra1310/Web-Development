@@ -1,21 +1,42 @@
-/**{
-        background: url('download.jpg') no-repeat yellow fixed top;
-        background-size: 100%;
-    }*/
-#para1 {
-    background-color: rgb(178, 236, 139);
-    border-radius: 10px;
-    color: purple;
-    position: relative;
-    top: 100px; /* Add this line to shift the paragraph downward */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
 }
-.para2 {
-    color: blue;
-    background-color: lightblue;
-    border: dotted 5px black;
-    border-color: black;
-    border-radius: 10px;
-    position: fixed;
-    top: 80px;
-    overflow-y: scroll;
+.navv{
+    background-color: rgb(220, 137, 203);
+    height: 200px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;;
+}
+
+.par{
+    background-color: green;
+    height: 800px;
+    /* width: 100%; */
+    margin: 20px 20px 5px 20px;
+    position: relative;
+}
+.c1{
+    background-color: coral;
+    height:600px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.c2{
+    background-color: rgb(94, 147, 245);
+    height:600px;
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 60%;
+}
+
+.icon{
+    position:fixed;
+    
 }
