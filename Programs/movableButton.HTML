@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .btn {
+            background-color: rgb(21, 228, 236);
+            color: rgb(85, 0, 255);
+            padding: 9px;
+            border-radius: 15px;
+            border: none;
+            transition: transform 3s ease;
+            margin-top: 0;
+            z-index: 1;
+        }
+
+        
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn">Click here</button>
+    </div>
+    <script>
+        let btn = document.querySelector(".btn");
+
+        btn.addEventListener("click", () => {
+            let but=document.querySelector(".btn");
+            but.innerHTML = "Clicked"
+        })
+        btn.addEventListener("mouseenter", () => {
+            let but=document.querySelector(".btn");
+            but.style = "margin-left: 300px;"
+        })
+        btn.addEventListener("mouseleave", () => {
+            let but=document.querySelector(".btn");
+            but.style = "margin-top: 300px;"
+        })
+    
+    </script>
+</body>
+
+</html>
+

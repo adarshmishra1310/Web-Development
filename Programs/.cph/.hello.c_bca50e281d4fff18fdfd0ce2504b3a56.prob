@@ -1,0 +1,1 @@
+{"name":"Local: hello","url":"c:\\Users\\mishr\\OneDrive\\Documents\\Web-Development\\Programs\\hello.c","tests":[{"id":1709974747822,"input":"7\nhello\nolleh\nhelol\nand\ndan\nadarsh\nadarhs","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\mishr\\OneDrive\\Documents\\Web-Development\\Programs\\hello.c","group":"local","local":true}
