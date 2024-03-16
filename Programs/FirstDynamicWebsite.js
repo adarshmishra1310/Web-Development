@@ -24,4 +24,4 @@ function createCard(title, cName, views, old, duration) {
 let title = "a", cName = "b", views = "100000", old = "d", duration = "e";
 views = parseInt(views);
 
-createCard(title, cName, views, old, duration);
+// createCard(title, cName, views, old, duration);
