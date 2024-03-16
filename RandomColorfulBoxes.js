@@ -9,7 +9,7 @@ function getRandomColor(){
     return Math.floor(Math.random() * 1000) % 255;
 }
 
-setInterval(() => {
+let temp =setInterval(() => {
     for(let i=0; i<5; i++){
         a = getRandomColor();
         b = getRandomColor();
@@ -19,3 +19,4 @@ setInterval(() => {
     }
 }, 100)
 
+console.log(temp)
